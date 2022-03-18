@@ -1,0 +1,15 @@
+image: registry.witchwitch.io/witchwitch/craft-app:prod
+pullPolicy: Always
+
+nameOverride: prod-craft-app
+fullnameOverride: prod-craft-app
+
+replicaCount: 2
+
+spring:
+  activeProfiles:
+    - k8s
+    - prod
+
+javaOpts: ["-Xms1024m", "-Xmx2048m", "-XX:+UseG1GC"]
+ㅁ

@@ -1,0 +1,8 @@
+image: registry.witchwitch.io/witchwitch/craft-app:dev
+pullPolicy: Always
+
+nameOverride: dev-craft-app
+fullnameOverride: dev-craft-app
+
+replicaCount: 1
+ㅁ

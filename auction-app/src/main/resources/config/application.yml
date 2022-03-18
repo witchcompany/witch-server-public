@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: auction
+  profiles:
+    include:
+      - core
+      - api-docs
+
+web3j:
+  realm: dev
+
+contract:
+  witch:
+
+etherscan:
+  end-point: https://api-rinkeby.etherscan.io
+
+erc721:

@@ -1,0 +1,15 @@
+logging:
+  level:
+    ROOT: INFO
+    io.witchwitch.auction: INFO
+
+web3j:
+  realm: prod
+
+contract:
+  witch:
+
+etherscan:
+  end-point: https://api.etherscan.io
+
+erc721:
